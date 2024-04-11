@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! Welcome to our online store. How can I assist you today?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "How can I track my order?",
+        "Order status inquiry",
+        "Has my order shipped yet?",
+        "Tracking information for my order"
+      ],
+      "responses": [
+        "You can track your order with your order number. Please enter it to proceed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "Are [Product Name] in stock?",
+        "Product availability",
+        "Can you recommend me a product?"
+      ],
+      "responses": [
+        "I can help with that. Which product are you interested in?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "returns_refunds",
+      "patterns": [
+        "What is your return policy?",
+        "How do I return a product?",
+        "Can I get a refund for my purchase?",
+        "Exchange policy"
+      ],
+      "responses": [
+        "Our return policy lasts 30 days from the date of purchase. Would you like to initiate a return?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "What are your shipping rates?",
+        "How long does shipping take?",
+        "Do you offer expedited shipping?"
+      ],
+      "responses": [
+        "Shipping rates and times vary. For standard shipping, expect your items within 5-7 business days."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "payment_options",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with PayPal?",
+        "Is it safe to use my credit card on your site?"
+      ],
+      "responses": [
+        "We accept various payment methods, including credit cards, PayPal, and more. Your security is our top priority."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "account_management",
+      "patterns": [
+        "How do I create an account?",
+        "I forgot my password.",
+        "How can I delete my account?",
+        "Updating account information"
+      ],
+      "responses": [
+        "Creating an account is simple. Click on 'Sign Up' to start. If you've forgotten your password, select 'Forgot Password' at login."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "promotions_and_discounts",
+      "patterns": [
+        "How do I find current promotions?",
+        "Do you offer any discounts?",
+        "Applying promo codes"
+      ],
+      "responses": [
+        "You can find current promotions and discounts on our 'Deals' page. Enter your promo code at checkout."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "technical_issues",
+      "patterns": [
+        "I'm having trouble accessing the site.",
+        "The website is not loading for me.",
+        "Experiencing checkout issues"
+      ],
+      "responses": [
+        "We're sorry to hear that. Please try clearing your browser's cache and cookies or try using a different browser."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "customer_support",
+      "patterns": [
+        "How can I contact customer support?",
+        "I have a complaint.",
+        "I need help with my order."
+      ],
+      "responses": [
+        "Our customer support team is here to help. You can reach us via email at support@ourstore.com or by phone at 1-800-OUR-STORE."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "feedback_and_complaints",
+      "patterns": [
+        "Where can I leave feedback?",
+        "I want to report a problem with my product.",
+        "How to file a complaint?"
+      ],
+      "responses": [
+        "Your feedback is important to us. Please email us your feedback or complaint at feedback@ourstore.com."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Thanks for your help",
+        "Goodbye",
+        "That's all, thanks"
+      ],
+      "responses": [
+        "You're welcome! If you have any more questions, feel free to ask. Have a great day!"
+      ],
+      "context_set": ""
+    }
+  ]
+}
